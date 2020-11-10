@@ -37,7 +37,7 @@ public class MainActivity extends FlutterActivity {
 
   @Override
   public void configureFlutterEngine(@NonNull FlutterEngine flutterEngine) {
-    Fritz.configure(this, "2b81f63a2d904323bd9f9ad855f3a30a");
+    Fritz.configure(this, "YOUR_API_KEY");
     GeneratedPluginRegistrant.registerWith(flutterEngine);
 
     new MethodChannel(flutterEngine.getDartExecutor().getBinaryMessenger(), CHANNEL)
